@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="Img/fondo26.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/Crearcuenta.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="Login1-box">
+        <img class="Avatar" src="/Img/fondo26.png" alt="">
+        <h1>Crear cuenta</h1>
+        <form>
+            <label for="text">Nombre completo</label>
+            <input type="text" placeholder="Nombre o apellido completo">
+            <label for="text">Ingrese su correo</label>
+            <input type="text" placeholder="Ingrese su corre">
+            <label for="password">Ingrese su contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña">
+            <label for="password">confirmar contraseña</label>
+            <input type="password" placeholder="Confirmar su contraseña">
+
+            <input class="boton" type="submit" value="Crear">
+            <a class="btn" href="/olvidastetucontraseña.html">¿Olvideste tu contraseña?</a>
+            <a class="btn" href="/Login1.html">Ingresar cuenta existente</a>
+
+            <section class="buttons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google-plus"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </section>
+            <span class="login-bon2">
+                <i class="fa fa-copyright"> copyright </i>
+            </span>
+            <!--modal-->
+            <section class="modal ">
+                <div class="modal__container">
+                    <h2 class="modal__title">!Ya puedes ingresar¡</h2>
+                    <a onclick="location.href = 'Login1.html';" class="modal__close">Ingresar</a>
+                </div>
+            </section>
+            <script src="/js/main.js"></script>
+        </form>
+    </div>
+</body>
+</html>

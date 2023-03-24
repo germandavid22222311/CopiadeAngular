@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+    
+body{
+
+    font-family: Arial;
+   
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.titulo{
+    color: #a98109;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+
+}nav{
+    height: 80px;
+    width: 100%
+    
+}
+
+.logo{
+    height: 40px;
+}
+nav ul{
+    margin-right: 20px;
+    text-align: right;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:#a98109;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: white;
+    transition: .5s;
+}
+
+/*Header*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #a98109;
+      /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 9%, 0.57),hsla(0, 0%, 1%, 0.9)), url(../IMG/fondodepantalla3.0.jpeg)no-repeat;
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(0, 0%, 9%, 0.57), hsla(0, 0%, 4%, 0.49)), url(../IMG/fondodepantalla3.0.jpeg)no-repeat;
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+   
+}  
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #a98109;
+
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#a98109 ;
+
+}
+    
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+   
+}    
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.magen-about-us{
+    width: 48%;
+
+}
+.contenedor-sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos h3{
+    color:#a98109;
+   
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 100;
+    text-align: justify;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards .card{
+    background:#a98109;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0#efb810(0, 0, 0, 0.6);
+}
+.cards .card img{
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+.cards .card > .contenido-texto-card p{
+
+    font-weight: 300;
+    padding-top: 5px;
+}
+.about-servives{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+
+}
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.servicio-ind{
+  
+    text-align: center;
+}
+.servicio-ind img{
+    width: 90%;
+
+}
+.servicio-ind h3{
+    margin: 10px 0;
+
+}
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+footer{
+    background: #a98109;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    
+
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #e2e0da;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+.content-foo p{
+    color: #fff;
+ 
+ 
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color:goldenrod;
+
+
+}
+.buttons1 {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons1 a{
+    text-decoration: none;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #a98109;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons1 a:hover {
+    transform: scale(1.2);
+}
+.mapa{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.Mapa img{
+    width:100px;
+    height:100px;
+}

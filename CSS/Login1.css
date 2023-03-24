@@ -1,0 +1,204 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(/Img/Fondo23.jpg);
+    background-size:cover;
+    font-family: Arial;
+    height:100vh;
+}
+.Login1-box{
+    width:320px;
+    height:550px;
+    color:#5c185d;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:70px 50px;
+    box-shadow:0 10px 30px #5c185d;
+    -webrit-backdrop-filter:blur(15px);
+    backdrop-filter:blur(15px);
+    background-color:rgba(255, 254, 254, 0.6);
+}
+.Login1-box .Avatar{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    position:absolute;
+    top:-20px;
+    left:60px;
+}
+h1{
+    position: relative;
+    top: 50px;
+}
+.Login1-box h1{
+    margin:0;
+    padding:0 0 20px ;
+    text-align:center;
+    font-size:22px;
+    line-height:100px;
+}
+.Login1-box label{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    display:block;
+    line-height:50px;
+
+}
+.Login1-box input{
+    width:100%;
+    margin-bottom:10px;
+}
+.Login1-box input[type="text"],.Login1-box input[type="password"]{
+    border:none;
+    border-bottom:2px solid hsl(299, 59%, 23%);
+    background: transparent;
+    outline:none;
+    height:36px;
+    color:hsl(299, 59%, 23%);
+    font-size:19px;
+    border-radius:1px;
+
+}
+.Login1-box .boton[type="submit"]:hover{
+    cursor: pointer;
+    background:#975ea5;
+    color: white;
+}
+.Login1-box a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 45px; 
+    position: relative;
+    top: 10px;
+}
+.boton{
+    padding:10px 90px 10px 80px ;
+    border:none;
+    outline:none;
+    height: 50px;
+    font-family: Arial;
+    font-size: 18px;
+    border-radius: 20px;
+    color:white;
+    background-color:#5c185d;
+    position: relative;
+    top: 30px;
+    text-decoration:none;
+}
+.Login1-box .btn{
+    position: relative;
+    font-size: 16px;;
+    top: 10px;
+    color:#5c185d;
+    text-decoration: none;
+    line-height:2;
+}
+.buttons {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #5c185d;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px hsl(299, 59%, 23%);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+.login-bon2{
+    background: #5c185d;
+    line-height:60px;
+    font-size: 20px;
+    position: relative;
+    top:20px;
+    left:55px;
+    padding: 10px 20px 10px 20px;
+    color:white;
+}
+/*
+*/
+.modal__container h2{
+    color: #5c185d;
+    font-size:20px;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+.modal__container{
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90%;
+    background-color:white;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center;
+    grid-auto-columns: 100%;
+    transform: var(--transform);
+    transition:var(--transition);
+}
+
+.modal__paragraph{
+    margin-bottom: 10px;
+}
+
+.modal__img{
+    width: 90%;
+    max-width: 300px;
+}
+/*modal*/
+.modal__close{
+    text-decoration: none;
+    color:white;
+    background-color:#5c185d;
+    padding: 1em 3em;
+    border: 1px solid ;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300px;
+    transition: background-color .3s;
+}
+
+.modal__close:hover{
+    background-color:#975ea5;
+}
+/*
+texto de modal
+*/

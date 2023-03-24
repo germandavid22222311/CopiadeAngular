@@ -1,0 +1,83 @@
+body{
+    background:url(/Img/Imagen766\ -\ Editado.png);
+    margin:0;
+    padding:0;
+    border-radius:5px;
+    width:220px;
+    height:220px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.registrarse-box{
+    width: 400px;
+    height: 400px;
+    color:#a98109;
+    position:relative;
+    top: 0; 
+    left: 600px;
+    transform: (-50%,50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    display: block;
+    margin: -25px 0 0 -25px;
+}
+.registrarse-box .avatar2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 6px;
+    left: calc(50% -50%px);
+}
+.registrarse-box h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+.registrarse-box label{
+    margin: 0;
+    padding: 0%;
+    font-weight: bold;
+    display: block;
+}
+.registrarse-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registrarse-box input[type="text"], .registrarse-box input[type="password"]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #a98109 ;
+    background: transparent ; 
+    outline: none;
+    height:40px ;
+    color: #a98109;
+    font-size: 15px;
+}
+.registrarse-box input[type="submit"]{
+    border:none ;
+    outline: none ;
+    height: 40px ;
+    background: #a98109;
+    color:white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.registrarse-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: goldenrod;
+    color: white;
+}
+.registrarse-box a{
+    text-decoration: none;
+    font-size: 15;
+    line-height: 30px;
+    color:#a98109;
+}
+.registrarse-box a:hover{
+    color: goldenrod;
+}

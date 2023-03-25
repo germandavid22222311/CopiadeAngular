@@ -138,7 +138,7 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color:#975ea5  ;
+    color:#975ea5;
 
 }
 .textos-header h2{
@@ -268,7 +268,7 @@ header .textos-header{
   .copyrigth {
     position: absolute;
     top:below;
-    background-color: white ;
+    background-color:#975ea5;
     padding: 3px 0;
     display: flex;
     width: 100%;
@@ -277,7 +277,7 @@ header .textos-header{
   .copyrigth h2 {
     font-size: 24px;
     margin: 15px 0 15px 25px;
-    color: #5c185d;
+    color:white;
 
   }
   .copyrigth .redes-sociales {

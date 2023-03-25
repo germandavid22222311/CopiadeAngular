@@ -11,14 +11,14 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color:#5c185d;
+    color:white;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #975ea5;
+    background:#5c185d ;
     transition: .5s;
 }
 /*Menu*/
@@ -85,7 +85,7 @@ input {
 }
 .btn i {
     font-size: 50px;
-    color: rgb(251, 6, 6);
+    color: rgb(6, 251, 59);
     line-height: 80px;
     transition: all .7s ease;
     
@@ -235,7 +235,7 @@ p {
     color: black;
   }
   .copyrigth {
-    background-color: #fff ;
+    background-color:#975ea5 ;
     padding: 3px 0;
     display: flex;
     width: 100%;
@@ -244,7 +244,7 @@ p {
   .copyrigth h2 {
     font-size: 24px;
     margin: 15px 0 15px 25px;
-    color: #5c185d;
+    color: white;
 
   }
   .copyrigth .redes-sociales {

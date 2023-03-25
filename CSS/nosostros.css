@@ -11,60 +11,6 @@ body{
     align-items: center;
     font-family: Arial;
 }
-.container{
-    width:100%;
-    max-width:1100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: 30px;
-    height: 50vh;
-    margin:240px;
-    padding: 10px;
-}
-.card{
-    width:100%;
-    margin:20px;
-    border-radius:6px;
-    overflow:hidden;
-    cursor: default;
-    transition: all 400ms ease;
-}
-.card:hover{
-    box-shadow:5px 5px 20px hsl(299, 59%, 23%);
-    transform:translatey(-3%);
-}
-.card img{
-    width:100%;
-    height: 200px;
-    
-}
-.card .contenido{
-    padding: 15px;
-    text-align:center;
-}
-.card .contenido p{
-    line-height: 1.5;
-    color: #5c185d;
-}
-.card .contenido h3{
-    font-weight:400;
-    margin-bottom:15px;
-}
-.card .contenido a{
-    text-decoration:none;
-    display: inline-block;
-    padding:10px;
-    margin-top:10px;
-    color: white;
-    border: 1px solid #5c185d;
-    background-color: #5c185d;
-    border-radius:4px;
-    transition: all 400ms ease;
-}
-.card .contenido a:hover{
-    background:#975ea5;
-}
 
 /*
 */
@@ -146,32 +92,7 @@ header .textos-header{
     font-weight: 300;
     color:#5c185d;
 }
-.wave{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}    
-.contenedor-sobre-nosotros{
-    display: flex;
-    justify-content: space-evenly;
-}
-.magen-about-us{
-    width: 48%;
-
-}
-.contenedor-sobre-nosotros .contenido-textos{
-    width: 48%;
-}
-.contenido-textos p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 100;
-    text-align: justify;
-}
-.cards .card > .contenido-texto-card p{
-
-    font-weight: 300;
-    padding-top: 5px;
-}
+/*cartademision*/
 .about-servives{
     background: #f2f2f2;
     padding-bottom: 30px;
@@ -192,14 +113,52 @@ header .textos-header{
 }
 .servicio-ind h3{
     margin: 10px 0;
-
 }
 .servicio-ind p{
     font-weight: 300;
-    text-align: justify;  
+    text-align: justify;
+}
+footer{
+    background: #a98109;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    margin-top:60px;
+    
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    
+
 }
 .content-foo{
     text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #e2e0da;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+.content-foo p{
+    color: #fff;
+ 
+ 
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color:goldenrod;
+
+
 }
 .buttons {
     min-width: 100px;
@@ -207,16 +166,167 @@ header .textos-header{
     justify-content: space-around;
 }
 
-.text7{
-    font-size: 50px;
+.buttons a {
+text-decoration: none;
+font-size: 15px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+background: #a98109;
+color: #f1f1f1;
+border-radius: 50%;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+transform: scale(1.2);
+}
+.servicio-ind{
+    display: flex;
+    height: 280px;
+}
+.cart1{
+    display:block;
+    border-radius:10px;
+    margin-left:60px;
+    background-color: white;
+    flex: 1;
+    transition:.3s all ease;
+    margin-top:20px;
+
+}
+.cart1:hover{
+    flex:1.2;
+
+}
+.servicio-ind img{
+    /**/
+    width: 180px;
+    height: 180px;
+    top:10px;
+    width:80%;
+}
+.servicio-ind h1{
+    color:white;
+    font-family: Arial;
+    font-size:15px;
+}
+.servicio-ind a{
+    position:relative;
+    text-decoration:none;
+    padding:10px;
+    color:rgb(218,165,32);
+    border: 1px solid gold;
+    border-radius:4px;
+    transition: all 400ms ease;
+    top:10px;
+    left:-10px;
+}
+.servicio-ind :hover a{
+    background:white;
+    color:#a98109;
+}
+.texto3{
+    font-size: 30px;
     font-weight: 300px;
-    color:#5c185d ;
-    margin-top:10px;
+    color:#a98109 ;
+    margin-top:20px;
     text-align: center;
 }
-/*pie de pagina*/
+/*cartas fles*/
+.container__card2{
+    max-width:120px;
+    margin:auto;
+    margin-top: 100px;
+    perspective:1000px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.card2__father{
+    margin:20px;
+    perspective:1000px;
+}
+.card2__father:hover .card2{
+    transform:rotateY(180deg);
+}
+.card2{
+    width:350px;
+    height:400px;
+ 
+    position: relative;
+    transform-style:preserve-3d;
+    transition: all 600ms;
 
-  footer {
+}
+.card2__front{
+    background-size:cover;
+    background-position:center;
+}
+.card2__front,
+.card2__back{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    backface-visibility:hidden;
+    transform-style: preserve-3d;
+    border-radius:20px;
+
+}
+.card2__back{
+    transform:rotateY(180deg);
+    background:#5c185d;
+}
+.body__card2_front{
+    width:100%;
+    height:100%;
+    text-align:center;
+    padding:40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    transform: translateZ(60px);
+}
+.bg{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+}
+.body__card2_back{
+    padding:40px;
+    text-align: center;
+    transform: translateZ(60px);
+}
+.body__card2_back p{
+    margin-top:30px;
+    font-size:18px;
+}
+.body__card2_back input{
+    padding: 10px 40px;
+    margin-top:30px;
+    font-size:16px;
+    cursor:pointer;
+    border:none;
+    color:white;
+    background: #a97109;
+    box-shadow: 1px 1px 30px -5px blue;
+    border-radius:10px;
+    transition:box-shado 600ms;
+}
+.body__card2_back input:hover{
+    box-shadow: 1px 1px 30px -5px rgb(0, 255, 38);
+}
+/*fin de flas*/
+footer {
     background: #5c185d;
     padding:auto;
     margin: auto;
@@ -268,7 +378,7 @@ header .textos-header{
   .copyrigth {
     position: absolute;
     top:below;
-    background-color: white ;
+    background-color:#975ea5;
     padding: 3px 0;
     display: flex;
     width: 100%;
@@ -277,7 +387,7 @@ header .textos-header{
   .copyrigth h2 {
     font-size: 24px;
     margin: 15px 0 15px 25px;
-    color: #5c185d;
+    color: white;
 
   }
   .copyrigth .redes-sociales {

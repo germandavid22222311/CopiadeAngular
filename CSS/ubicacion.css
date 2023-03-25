@@ -22,7 +22,7 @@ body{
 }
 
 .titulo{
-    color: #a98109;
+    color:#5c185d  ;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -48,14 +48,14 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color:#a98109;
+    color:white;
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: white;
+    background: #5c185d ;
     transition: .5s;
 }
 
@@ -86,13 +86,13 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color: #a98109;
+    color: #975ea5;
 
 }
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color:#a98109 ;
+    color:#975ea5 ;
 
 }
     
@@ -125,39 +125,6 @@ header .textos-header{
     font-weight: 100;
     text-align: justify;
 }
-.cards{
-    display: flex;
-    justify-content: space-evenly;
-}
-.cards .card{
-    background:#a98109;
-    display: flex;
-    width: 46%;
-    height: 200px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    box-shadow: 0 0 6px 0#efb810(0, 0, 0, 0.6);
-}
-.cards .card img{
-
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: block;
-}
-
-.cards .card > .contenido-texto-card{
-    width: 60%;
-    color: #fff;
-}
-.cards .card > .contenido-texto-card p{
-
-    font-weight: 300;
-    padding-top: 5px;
-}
 .about-servives{
     background: #f2f2f2;
     padding-bottom: 30px;
@@ -183,39 +150,6 @@ header .textos-header{
 .servicio-ind p{
     font-weight: 300;
     text-align: justify;
-}
-footer{
-    background: #a98109;
-    padding: 60px 0 30px 0;
-    margin: auto;
-    overflow: hidden;
-    width: 100%;
-    
-}
-.contenedor-footer{
-    display: flex;
-    width: 90%;
-    justify-content: space-evenly;
-    margin: auto;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ccc;
-    
-
-}
-.content-foo{
-    text-align: center;
-}
-.content-foo h4{
-    color: #fff;
-    border-bottom: 3px solid #e2e0da;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-
-}
-.content-foo p{
-    color: #fff;
- 
- 
 }
 .titulo-final{
     text-align: center;
@@ -247,11 +181,95 @@ footer{
 .buttons1 a:hover {
     transform: scale(1.2);
 }
-.mapa{
-    margin-top: 25px;
-    margin-bottom: 100px;
-}
-.Mapa img{
-    width:100px;
-    height:100px;
+
+/*foter*/
+footer {
+    background: #5c185d;
+    padding:auto;
+    margin: auto;
+    overflow: hidden;
+  }
+  .footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+  .content-foo {
+    position: relative;
+    top:10px;
+    max-width: 250px;
+    min-width: 250px;
+  }
+  .content-foo h4 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  .content-foo p {
+    color: #ccc;
+    top:-10px;
+
+  }
+  .content-foo ul {
+    color: #ccc;
+    list-style: none;
+  }
+  .content-foo ul li {
+    padding: 5px 0;
+  }
+  .content-foo ul li i {
+    margin-right: 8px;
+  }
+  .content-foo a {
+    display: block;
+    color: #ccc;
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .content-foo a:hover {
+    color: black;
+  }
+  .copyrigth {
+    position: absolute;
+    top:below;
+    background-color: #975ea5 ;
+    padding: 3px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .copyrigth h2 {
+    font-size: 24px;
+    margin: 15px 0 15px 25px;
+    color: white;
+
+  }
+  .copyrigth .redes-sociales {
+    display: flex !important;
+    text-align: center;
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  .copyrigth .redes-sociales .bubble {
+    width: 50px;
+    height: 50px;
+    background: #5c185d;
+    border-radius: 50px;
+    margin: 10px;
+    transition: all .4s ease-in-out;
+  }
+  .copyrigth .redes-sociales .bubble i {
+    color: white;
+    padding: 12px 0;
+  }
+
+  .copyrigth .redes-sociales .bubble:hover {
+    transform: scale(1.2);
+
+  }
+  .copyrigth .redes-sociales .bubble:hover i {
+    background: transparent;
 }
